@@ -107,10 +107,6 @@ PRs merged in codebases I didn't write, at companies I want to work at:
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MaitreyeeDeshmukh&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&text_color=c9d1d9&hide=html,css)
 
-</div>
 
----
 
-<div align="center">
-<sub>if something i built is useful to you, a star goes a long way</sub>sub>
-</div>div></sub>
+
