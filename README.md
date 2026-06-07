@@ -84,7 +84,7 @@ PRs merged in codebases I didn't write, at companies I want to work at:
 
 **Programs** — NASA Lucy Ambassador. NASA L'SPACE NPWEE Academy alum. Fulton Ambassador @ ASU.
 
-**Internships** — Incoming SWE Intern @ MedFilo. Office Assistant @ ASU Global Futures Lab (3 yrs). Tata Technologies (MRO + inspection systems).
+**Internships** — Office Assistant @ ASU Global Futures Lab (3 yrs). Tata Technologies (MRO + inspection systems).
 
 **Hackathons (Spring 2026)** — 6 wins out of 10:
 
