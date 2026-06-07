@@ -1,5 +1,3 @@
-<div align="center">
-
 # Maitreyee Deshmukh
 
 **builder. shipper. 6x hackathon winner.**
@@ -9,13 +7,11 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-maitreyeedeshmukh-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/maitreyeedeshmukh)
 [![Email](https://img.shields.io/badge/Email-maitreyee721%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:maitreyee721@gmail.com)
 
-</div>
-
 ---
 
 I build things that ship — not demos, not mockups, not "coming soon" pages.
 
-Six hackathon wins in one semester across 10 competitions. Three merged PRs in Supabase, Vercel AI SDK, and Anthropic's Python SDK. Production apps with real users. An AI security platform used to test adversarial payloads against LLM agents. Research at ASU's CoRAL Lab on LLM reasoning over structured data. Incoming SWE intern at MedFilo.
+Six hackathon wins in one semester across 10 competitions. One merged PR in supabase/supabase-js, two open PRs in vercel/ai and anthropic-sdk-python. Production apps with real users. An AI security platform for testing adversarial payloads against LLM agents. Research at ASU's CoRAL Lab on LLM reasoning over structured data.
 
 The through-line: find a real problem, build something fast, put it in front of real people.
 
@@ -26,22 +22,20 @@ The through-line: find a real problem, build something fast, put it in front of 
 | project | what it does | stack | live |
 |---|---|---|---|
 | **[EcoEats](https://github.com/MaitreyeeDeshmukh/EcoEats)** | campus food rescue — organizers post leftover event food, students claim it. PIA grant-funded. ASU Global Futures Lab partner. Launched Earth Day 2026. | React · Vite · Supabase · Tailwind | [eco-eats-o5ub.vercel.app](https://eco-eats-o5ub.vercel.app) |
-| **[AgentBreaker](https://github.com/MaitreyeeDeshmukh/agentbreaker)** | adversarial AI agent security platform — 57 hand-crafted payloads, 4 attack vectors (prompt injection, jailbreak, data exfil, indirect injection), Anthropic SDK evaluator, SSE streaming results, PDF report export. | TypeScript · Next.js · Anthropic SDK · Supabase | [github/agentbreaker](https://github.com/MaitreyeeDeshmukh/agentbreaker) |
-| **[Arc](https://github.com/MaitreyeeDeshmukh/Arc)** | AI content strategy platform for founders — weekly check-in to platform-native post scripts for LinkedIn, Instagram, TikTok. Stripe billing, background job queue, rate limiting, analytics, error tracking, E2E tests. Full production SaaS. | Next.js 14 · Supabase · GPT-4o · Stripe · Inngest · Upstash · PostHog · Sentry | [github/Arc](https://github.com/MaitreyeeDeshmukh/Arc) |
-| **[SunDevil Circles](https://sun-devil-circle.vercel.app)** | privacy-first AI peer support — matches university students by shared language and cultural background. 1st place, PIA Scale U Hackathon. Inbound interest from Chicago Education Advocacy Cooperative. | Next.js · Supabase · OpenAI | [sun-devil-circle.vercel.app](https://sun-devil-circle.vercel.app) |
+| **[AgentBreaker](https://github.com/MaitreyeeDeshmukh/agentbreaker)** | adversarial AI agent security platform — 57 hand-crafted payloads, 4 attack vectors, Anthropic SDK evaluator, SSE streaming results, PDF report export. | TypeScript · Next.js · Anthropic SDK · Supabase | [github/agentbreaker](https://github.com/MaitreyeeDeshmukh/agentbreaker) |
+| **[Arc](https://github.com/MaitreyeeDeshmukh/Arc)** | AI content strategy platform for founders — weekly check-in to platform-native post scripts for LinkedIn, Instagram, TikTok. Stripe billing, background jobs, rate limiting, analytics. Full production SaaS. | Next.js 14 · Supabase · GPT-4o · Stripe · Inngest · PostHog · Sentry | [github/Arc](https://github.com/MaitreyeeDeshmukh/Arc) |
+| **[SunDevil Circles](https://sun-devil-circle.vercel.app)** | privacy-first AI peer support — matches university students by shared language and cultural background. 1st place, PIA Scale U Hackathon. | Next.js · Supabase · OpenAI | [sun-devil-circle.vercel.app](https://sun-devil-circle.vercel.app) |
 | **[Prodify](https://github.com/MaitreyeeDeshmukh/prodify)** | CLI tool that injects production-ready SaaS infra — auth, Stripe, Supabase migrations, CI/CD, secrets — into existing Next.js codebases. Not a boilerplate. One command. | TypeScript · Node.js | [github/prodify](https://github.com/MaitreyeeDeshmukh/prodify) |
 
 ---
 
 ## open source
 
-PRs merged in codebases I didn't write, at companies I want to work at:
+**[supabase/supabase-js #2428](https://github.com/supabase/supabase-js/pull/2428)** — fixed noisy console.error in GoTrueClient._recoverAndRefresh() by replacing with the existing _debug() pattern. **Merged Jun 2026.**
 
-**[supabase/supabase-js](https://github.com/supabase/supabase-js)** — fixed noisy console.error in GoTrueClient._recoverAndRefresh() by replacing with the existing _debug() pattern. Merged by maintainer @mandarini.
+**[vercel/ai #15823](https://github.com/vercel/ai/pull/15823)** — restored onFinish callback in ToolLoopAgent.stream() and generate() accidentally dropped in PR #13698. Open, review required.
 
-**[vercel/ai](https://github.com/vercel/ai)** — restored onFinish callback in ToolLoopAgent.stream() and ToolLoopAgent.generate() accidentally dropped in PR #13698.
-
-**[anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)** — fixed AWSEventStreamDecoder hardcoding event="completion" for all SSE events instead of preserving the real event type from decoded JSON bytes.
+**[anthropics/anthropic-sdk-python #1651](https://github.com/anthropics/anthropic-sdk-python/pull/1651)** — fixed AWSEventStreamDecoder hardcoding event="completion" for all SSE events instead of preserving the real event type. Open, review required.
 
 ---
 
@@ -76,15 +70,15 @@ PRs merged in codebases I didn't write, at companies I want to work at:
 
 ---
 
-## a few things worth knowing
+## background
 
 **Research** — Undergraduate researcher at ASU's CoRAL Lab (Complex Data Reasoning and Analysis Lab) under Prof. Vivek Gupta. Focus: LLM reasoning over structured data.
 
 **Accelerators** — AIVA Accelerator (Technovation x UNICEF Generation Unlimited, ~9% acceptance rate). Venture Devils @ ASU.
 
-**Programs** — NASA Lucy Ambassador. NASA L'SPACE NPWEE Academy alum. Fulton Ambassador @ ASU.
+**Programs** — NASA Lucy Ambassador (Aug 2025–present). NASA L'SPACE NPWEE Academy alum. Fulton Ambassador @ ASU.
 
-**Internships** — Office Assistant @ ASU Global Futures Lab (3 yrs). Tata Technologies (MRO + inspection systems).
+**Experience** — Office Assistant @ ASU Global Futures Lab (Mar 2023–present). Summer Intern @ Tata Technologies (MRO + inspection systems, Jun–Aug 2025). GE Aerospace Forage virtual simulation (Feb–Mar 2025).
 
 **Hackathons (Spring 2026)** — 6 wins out of 10:
 
@@ -101,12 +95,10 @@ PRs merged in codebases I didn't write, at companies I want to work at:
 
 ## stats
 
-<div align="center">
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MaitreyeeDeshmukh&show_icons=true&count_private=true&hide=issues&theme=dark&hide_border=true&bg_color=0d1117&text_color=c9d1d9&icon_color=58a6ff&hide_title=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MaitreyeeDeshmukh&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&text_color=c9d1d9&hide=html,css)
 
+---
 
-
-
+*if something i built is useful to you, a star goes a long way*
